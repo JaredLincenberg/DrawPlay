@@ -29,10 +29,10 @@ public class Cat {
 		// Draw the head
 		//Added the rgb value for brown
 		Color colorBrown = new Color(139,69,19);
-		g2.setColor(colorBrown);
+		g2.setColor(Color.black);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
-		g2.setColor(Color.green);
+		g2.setColor(Color.white);
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
