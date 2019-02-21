@@ -1,3 +1,8 @@
+/**
+ * Modified by
+ * @author Jared Lincenberg
+ * @author Sukru Kiymaci
+ */
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
@@ -51,6 +56,6 @@ public class Cat {
 		g2.setColor(Color.black);
 		// Quote text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
-		g2.drawString("Curiosity killed the cat but satisfaction brought him back!", catX, catY+HEAD_DIMENSION+10);	
+		g2.drawString("Curiosity killed the cat but the satisfaction brought him back!", catX, catY+HEAD_DIMENSION+10);	
 	}
 }
